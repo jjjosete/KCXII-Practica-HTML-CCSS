@@ -1,0 +1,22 @@
+  /* Make it responsive */
+
+  @media screen and (max-width: 600px ) {
+      
+    /* Formulario responsive*/
+    form{
+       
+        margin-top: 10%;
+        width:70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* Logo responsive*/
+      .responsive-img{
+        width: 50%;
+        margin-top: 15%;
+      }
+
+  }
+
+ 

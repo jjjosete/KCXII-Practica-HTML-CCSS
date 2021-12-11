@@ -1,0 +1,28 @@
+@media (max-width: 1000px){
+    .container{
+        display: grid;
+        grid-template-columns: minmax(200px, 1fr);
+        grid-template-rows: minmax(200px, 400px) minmax(200px, 300px) minmax(300px, 500px);
+        grid-template-areas: "video"
+                    "info"
+                    "relacionado";
+    }
+    .video{
+        grid-area: video;
+        /* width: minmax(400px ,1000px); */
+
+    }
+    .info{
+        grid-area: info;
+    }
+    .relacionado{
+        grid-area: relacionado;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 680px){
+    html{
+        
+    }
+}

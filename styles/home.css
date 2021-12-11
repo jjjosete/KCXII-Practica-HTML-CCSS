@@ -1,0 +1,21 @@
+/*Para el mobile*/
+@media (max-width: 640px){
+    
+    .series, .movies {
+        display: grid;
+        margin-top: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        color: #ac1919 ;
+        
+    }
+    .movies img, .series img{
+        width: 100%;
+        margin-bottom: 10%;
+        border: 2px solid #ac1919;
+        border-radius: 5px;
+
+    }
+    
+}

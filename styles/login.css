@@ -1,0 +1,67 @@
+/* Movidas generales */
+html{
+    background-color: rgb(29, 32, 36);
+}
+/*Formulario*/
+form{
+    margin : 35%;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: snow;
+    padding: 30px;
+    border: #ac1919 solid 4px;
+    border-radius: 4px ;
+    box-shadow: 5px 5px 15px 5px rgb(53, 52, 52);
+}
+/* Recuperar contraseña*/
+#forget{
+    text-decoration: none;
+    font-weight: normal;
+    color: snow;
+}
+#forget:hover{
+    text-decoration: underline;
+}
+/*Inputs varios*/
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Botón */
+  input[type=button] {
+    width: 100%;
+    background-color: #ac1919;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Boton:hover  */
+  input[type=button]:hover {
+    background-color: hsl(0, 82%, 26%);
+  }
+  /* Logo */
+  .responsive-img{
+      width: 7%;
+      height: 2%;
+      margin-top: 100px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }

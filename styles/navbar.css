@@ -1,0 +1,42 @@
+
+/*Barra navegación*/
+/* logo */
+.logo{
+    width: 7%;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+/* Barra de navegación, movidas generales*/
+nav{
+  top: 0px;
+  height: 80px;
+  width: 100%;
+  background: rgb(24, 24, 24);
+  position: fixed;
+}
+/*Haciendo desaparecer el checkbox en desktop versio*/
+nav #button{
+  display: none;
+}
+/* Barra de navegación, lista de enlaces */
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+/* Barra de navegación, enlaces */
+nav li { 
+  display: inline;
+  line-height: 100px;
+  color: lightgrey;
+  margin-right: 35px;
+}
+
+nav a{
+  color: lightgrey;
+}
+/* Barra de navegación, enlaces hover */
+nav ul li a:hover{
+  background-color: lightgrey;
+  padding: 30px;
+  margin: 0;
+}

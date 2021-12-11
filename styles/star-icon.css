@@ -1,0 +1,30 @@
+input[type=checkbox]{
+    display: none;
+}
+/* Boton fav*/
+#uno:checked + label{
+    color: goldenrod;
+}
+#dos:checked + label{
+    color: goldenrod;
+}
+#tres:checked + label{
+    color: goldenrod;
+}
+#unouno:checked + label{
+    color: goldenrod;
+}
+#dosdos:checked + label{
+    color: goldenrod;
+}
+#trestres:checked + label{
+    color: goldenrod;
+}
+  
+.movies img, .series img{
+  display: relative;
+}
+.icon-star-full{
+  position: absolute;
+ 
+}
