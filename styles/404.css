@@ -1,0 +1,18 @@
+.mensaje404{
+    margin-top: 300px;
+    color: blanchedalmond;
+    display: grid;
+}
+
+h1, p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p a{
+    color: #ac1919;
+    text-decoration: underline;
+}
+a:visited{
+    color: ;
+}

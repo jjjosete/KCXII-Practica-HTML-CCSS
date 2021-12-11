@@ -36,7 +36,8 @@ nav a{
 }
 /* Barra de navegación, enlaces hover */
 nav ul li a:hover{
-  background-color: lightgrey;
-  padding: 30px;
+  background-color:  rgb(38, 41, 46);
+  padding: 20px 10px;
+  padding-top: 40px;
   margin: 0;
 }
